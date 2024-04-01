@@ -1,0 +1,47 @@
+
+/*------------------CENTRALIZAR----------------------*/
+body {
+    height: 100%;
+    margin: 0;
+                                                
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/*------------------TITULO----------------------*/
+h1 {
+    margin-bottom: 20px;
+}
+/*------------------OPÇÕES-------------------*/
+.opcoes {
+    width: 300px;
+    background-color: #000058;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*-------------BOTÕES E UMAS VIADAGENS PRA FICAR BONITO-------------------*/
+.btn {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#e70000;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.btn:hover {
+    border: 2px solid yellow;
+}

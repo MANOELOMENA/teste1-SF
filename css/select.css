@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+/*---------------Div-----------------*/
+.pcd {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*------------------Efeito Gay---------------*/
+.pcd img {
+    transition: transform 0.3s ease;
+    margin: 0 5px;
+}
+
+.pcd img:hover {
+    transform: scale(1.1);
+}
+/*----------------BOTÃO GAY--------------------*/
+.btn {
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e70000;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+/*---------Tamanho imagem----------*/
+img {
+    width: 150px;
+    height: 150px;
+}
+/*--------------Centralizar---------------*/
+h1 {
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+}
+
+#Pcdselecionado {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    transform: translateX(-50%);
+}
+
+/*-----------------Tamanho imagem do lutador------------*/
+#Pcdselecionado img {
+    width: 500px;
+    height: auto;
+}
